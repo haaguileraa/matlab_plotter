@@ -13,7 +13,7 @@ for i =0:0.1:500
   x2=x2i+i;
   x3=x3i+i;
   xlim([x2 x3])
-  if x3 > last_value_t
+  if x3 > t(last_value_t)
     break
   end
 end
